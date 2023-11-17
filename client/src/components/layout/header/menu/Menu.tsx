@@ -8,8 +8,8 @@ const Menu = () => {
 	return (
 		<div>
 			<ul className={s.list}>
-				{listItem.map((item) => (
-					<Link href={item.href}>
+				{listItem.map((item, index) => (
+					<Link href={item.href} key={index}>
 						<li className={s.link}>{item.text}</li>
 					</Link>
 				))}
