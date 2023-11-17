@@ -42,6 +42,7 @@ eco-harbor by team dobrya4ki hackathon-project 2023
 
 Усі питання стосовно функціоналу та оновлення проекту можете задати розробникам:
 
+
 Full-stack developer
 
 **Попов Іван Анатолійович**
@@ -49,3 +50,29 @@ Full-stack developer
 GitHub: https://github.com/escoutdoor
 
 Telegram: https://t.me/escoutdoor
+
+E-mail: vanap387@gmail.com
+
+  
+
+Front-end developer
+
+**Орешников Владислав Ігорович**
+
+GitHub: https://github.com/orynhydro
+
+Telegram: https://t.me/oryn_hydro
+
+E-mail: oreshnikovvl@gmail.com
+  
+
+
+Front-end developer
+
+**Заболотна Анастасія Ігорівна**
+
+GitHub: https://github.com/naaaasty
+
+Telegram: https://t.me/nastya10720
+
+E-mail: nastyazabol80@gmail.com
