@@ -1,11 +1,10 @@
-import Home from "../src/components/screens/home/Home";
+import Home from '../src/components/screens/home/Home'
 
-const page = () => {
-	
+const HomePage = () => {
 	return (
 		<>
-			<Home/>
+			<Home />
 		</>
 	)
 }
-export default page;
+export default HomePage

@@ -72,7 +72,7 @@ export class AuthService {
     const tokens = await this.generateTokens(user.id);
 
     return {
-      user: this.getIdEmail,
+      user: await this.getIdEmail(user),
       ...tokens,
     };
   }

@@ -7,14 +7,14 @@ export class UserDto {
 
   @IsOptional()
   @IsString()
-  @MinLength(3, {
+  @MinLength(2, {
     message: "Мінімальна довжина ім'я - 3 символи",
   })
   firstName: string;
 
   @IsOptional()
   @IsString()
-  @MinLength(3, {
+  @MinLength(2, {
     message: 'Мінімальна довжина прізвища - 3 символи',
   })
   surName: string;

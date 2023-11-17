@@ -14,6 +14,8 @@ export const UserService = {
 	},
 
 	async updateProfile(data: IChangeUser) {
+		console.log(data)
+
 		return await instance<IUser>({
 			method: 'PUT',
 			url: `${USERS_URL}/profile/update`,
