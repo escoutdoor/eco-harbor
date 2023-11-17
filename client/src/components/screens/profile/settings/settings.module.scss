@@ -1,22 +1,46 @@
-
 .setting {
-	width: 100%;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	.saveBtn {
-		width: 350px;
-		height: 60px;
-		background-color: darkgreen;
-		color: #fff;
-		font-weight: 800;
-		text-transform: uppercase;
-		border-radius: 5px;
-		cursor: pointer;
-		&:hover {
-			background-color: rgb(18, 135, 18);
-			transition: all 0.3s ease-in-out;
+	width: 100%;
+
+	> form {
+		max-width: 600px;
+		width: 100%;
+		margin: 40px 0;
+
+		> div {
+			text-align: center;
+			margin-top: 30px;
+
+			.button {
+				width: 350px;
+				height: 60px;
+				background-color: darkgreen;
+				color: #fff;
+				font-weight: 800;
+				text-transform: uppercase;
+				border-radius: 5px;
+				cursor: pointer;
+
+				&:hover {
+					background-color: rgb(18, 135, 18);
+					transition: all 0.3s ease-in-out;
+				}
+
+				&:hover:not(:disabled) {
+					background: #3bab3f;
+					transform: scale(1.02);
+					box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+				}
+
+				&:disabled {
+					background: #e0e4f5;
+					color: #a2aec3;
+					cursor: not-allowed;
+				}
+			}
 		}
 	}
 }

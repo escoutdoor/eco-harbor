@@ -25,8 +25,8 @@ export const registerSchema = z.object({
 		}),
 	city: z
 		.string()
-		.min(2, {
-			message: 'Місто має бути не менше 2 символів',
+		.min(5, {
+			message: 'Місто має бути не менше 5 символів',
 		})
 		.max(50, {
 			message: 'Місто має бути не більше 50 символів',

@@ -1,0 +1,15 @@
+.page {
+	margin-top: 40px;
+
+	.title {
+		text-align: center;
+		font-size: 20px;
+		line-height: 1.6;
+	}
+
+	.achievements {
+		display: flex;
+		gap: 40px;
+		padding: 40px 0px;
+	}
+}

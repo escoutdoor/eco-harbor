@@ -2,7 +2,7 @@ import { useQuery } from '@tanstack/react-query'
 import { useAuth } from './useAuth'
 import { UserService } from '@/services/user/user.service'
 
-export const useProfile = async () => {
+export const useProfile = () => {
 	const { user } = useAuth()
 
 	const {

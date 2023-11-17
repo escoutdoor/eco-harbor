@@ -1,6 +1,6 @@
 import { createAsyncThunk } from '@reduxjs/toolkit'
 import { IAuthResponse } from './user.state'
-import { ICreateUser } from '@/shared/interfaces/user.interface'
+import { ICreateUser, ILogin } from '@/shared/interfaces/user.interface'
 import { AuthService } from '@/services/auth/auth.service'
 import { removeFromStorage } from '@/services/auth/auth.helper'
 import { errorCatch } from '@/api/api.helper'
@@ -18,7 +18,7 @@ export const register = createAsyncThunk<IAuthResponse, ICreateUser>(
 	}
 )
 
-export const login = createAsyncThunk<IAuthResponse, ICreateUser>(
+export const login = createAsyncThunk<IAuthResponse, ILogin>(
 	'auth/login',
 	async (data, thunkApi) => {
 		try {
@@ -36,7 +36,7 @@ export const logout = createAsyncThunk('auth/logout', () => {
 })
 
 export const checkAuth = createAsyncThunk<IAuthResponse>(
-	'auth/check-auth',
+	'auth/access-token',
 	async (_, thunkApi) => {
 		try {
 			const response = await AuthService.getTokens()

@@ -1,9 +1,15 @@
 .user {
-	display: flex;
-	gap: 50%;
 	align-items: center;
 	margin-left: 60px;
 	margin-top: 20px;
+
+	.user__top {
+		width: 100%;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+
 	.infoWrap {
 		display: flex;
 		align-items: center;
@@ -30,11 +36,11 @@
 				transform: scale(2);
 				opacity: 0;
 			}
-			> input[type=file]::-webkit-file-upload-button {
+			> input[type='file']::-webkit-file-upload-button {
 				cursor: pointer;
 			}
 		}
-		
+
 		.img {
 			border-radius: 50%;
 			cursor: pointer;
