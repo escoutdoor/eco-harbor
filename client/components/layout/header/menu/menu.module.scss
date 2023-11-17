@@ -1,0 +1,14 @@
+.list {
+	display: flex;
+	gap: 50px;
+	.link {
+		font-size: 18px;
+		color: #459548;
+
+		&:hover {
+			transition: all 0.3s ease;
+			cursor: pointer;
+			color: #6cbf6f;
+		}
+	}
+}

@@ -1,8 +1,13 @@
-<<<<<<< HEAD
-=======
-import Home from '@/components/screens/home/Home'
+import Home from "../components/screens/home/Home";
 
-export default function HomePage() {
-	return <Home />
+
+
+const page = () => {
+	
+	return (
+		<>
+			<Home/>
+		</>
+	)
 }
->>>>>>> f457e9634f5a1761b9f2655fcb9a8c81dbb4486a
+export default page;
