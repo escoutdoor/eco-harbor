@@ -8,10 +8,13 @@ const Scan: FC = () => {
 		try {
 			if (e.target.files && e.target.files[0]) {
 				const formData = new FormData()
-				formData.append('name', 'image.jpg')
+				formData.append('name', 'image')
 				formData.append('file', e.target.files[0])
 
-				axios.post('/ai/upload-image', formData)
+				axios
+					.post('/ai/upload-image', formData)
+					.then(res => console.log(res.data))
+					.catch(error => console.error(error))
 			}
 		} catch (err) {
 			console.log(err)

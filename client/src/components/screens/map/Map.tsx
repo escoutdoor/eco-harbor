@@ -2,10 +2,10 @@
 import { coordinate } from '@/helpers/coordinate'
 import s from './map.module.scss'
 import {
-  GoogleMap,
-  useJsApiLoader,
-  LoadScript,
-  Marker,
+	GoogleMap,
+	useJsApiLoader,
+	LoadScript,
+	Marker,
 } from '@react-google-maps/api'
 import InfoMap from '@/components/layout/informMap/InfoMap'
 
@@ -13,11 +13,11 @@ import InfoMap from '@/components/layout/informMap/InfoMap'
 
 const Map = () => {
 	const containerStyle = {
-    width: '1200px',
-    height: '700px',
+		width: '1200px',
+		height: '700px',
 		display: 'flex',
-		alignSelf: 'center'
-  }
+		alignSelf: 'center',
+	}
 
 		const center = {
 			lat: 48.391542318321726, 
@@ -43,4 +43,4 @@ const Map = () => {
 		</div>
 	)
 }
-export default Map;
+export default Map
