@@ -9,8 +9,6 @@ import {
 } from '@react-google-maps/api'
 import InfoMap from '@/components/layout/informMap/InfoMap'
 
-
-
 const Map = () => {
 	const containerStyle = {
 		width: '1200px',
@@ -19,14 +17,14 @@ const Map = () => {
 		alignSelf: 'center',
 	}
 
-		const center = {
-			lat: 48.391542318321726, 
-			lng: 35.036517964957945,
-		}
-		
+	const center = {
+		lat: 48.391542318321726,
+		lng: 35.036517964957945,
+	}
+
 	return (
 		<div className={s.map}>
-			<p>Місця переробки у вашому місті</p>
+			<h1>Місця переробки у вашому місті</h1>
 			<LoadScript
 				googleMapsApiKey={process.env.NEXT_PUBLIC_MAPS_URL!}
 				mapIds={['327f00d9bd231a33']}
@@ -35,9 +33,8 @@ const Map = () => {
 					mapContainerStyle={containerStyle}
 					center={center}
 					zoom={13}
-			
 				>
-				<InfoMap/>
+					<InfoMap />
 				</GoogleMap>
 			</LoadScript>
 		</div>

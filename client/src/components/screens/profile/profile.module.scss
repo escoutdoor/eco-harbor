@@ -15,6 +15,23 @@
 		align-items: center;
 		gap: 70px;
 	}
+
+	.logout__button {
+		margin-top: 25px;
+		width: 150px;
+		height: 40px;
+		background-color: darkgreen;
+		color: #fff;
+		border-radius: 5px;
+		text-align: center;
+		padding: 10px 0;
+		cursor: pointer;
+		&:hover {
+			background-color: rgb(99, 146, 53);
+			transition: all 0.3s ease-in;
+		}
+	}
+
 	.userTop {
 		position: relative;
 		.round {

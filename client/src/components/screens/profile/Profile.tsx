@@ -7,8 +7,19 @@ import { useProfile } from '@/hooks/useProfile'
 import { getName } from '@/utils/getName'
 import Loading from '../loading/Loading'
 import Achievements from './achievements/Achievements'
+import Button from '@/components/ui/button/Button'
+import { useRouter } from 'next/navigation'
+import { useActions } from '@/hooks/useActions'
 
 const Profile = () => {
+	const { replace } = useRouter()
+	const { logout } = useActions()
+
+	const onLogout = () => {
+		logout()
+		replace('/')
+	}
+
 	const { profile } = useProfile()
 
 	return !!profile?.id ? (
@@ -44,6 +55,9 @@ const Profile = () => {
 					Налаштування
 				</Link>
 			</div>
+			<button className={s.logout__button} onClick={onLogout}>
+				Вийти
+			</button>
 			<Achievements achievements={profile.achievements} />
 		</div>
 	) : (

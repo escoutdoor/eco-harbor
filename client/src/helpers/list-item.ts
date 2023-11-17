@@ -1,21 +1,20 @@
-import { IItemList } from "../interfaces/item.interface";
-
+import { IItemList } from '../interfaces/item.interface'
 
 export const listItem: IItemList[] = [
 	{
-		text: 'Головна',	
+		text: 'Головна',
 		href: '/',
 	},
 	{
-		text: 'Категорії',	
+		text: 'Категорії',
 		href: '/category',
 	},
 	{
-		text: 'Карта',	
+		text: 'Карта',
 		href: '/map',
 	},
 	{
-		text: 'Сканування',	
+		text: 'Сканування',
 		href: '/scan',
 	},
 ]
