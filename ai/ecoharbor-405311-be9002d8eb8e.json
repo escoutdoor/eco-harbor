@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "ecoharbor-405311",
+  "private_key_id": "be9002d8eb8e78c4476484d5bae82b2025426200",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDg+4j/KeO791F8\n2x3AkBq63aLlVcit2uN9aCs8X6Li9gJRMmlxkHAbtR3Ff8MvCB79FFYiuAfacDFa\n9+gGrOEmd8gTI6sleb1iHhpdkexghakPcYFStZBSxzmZ/YAYoSt1zihOJOeIYaNb\nNeYoUxxTwRy7zOlXbox+nGC+6pQV9SdtCDsPPK4AdkO3uy8/Wzn4K0ZxwG1p2CJm\nwMgS1l88ZSkRm1K2cyrtiM16tyc71EpAoxRLSVE8N6ZUkF9TRFbDoaALd2afkupn\nhCMJrDYa6/uCTWAoAGbME0GXcZrB2ZAZwYJt51Mg1d3SzajcQcyFCpjo7RE+yMVG\nVtsOEkHNAgMBAAECggEAC3s6sA7itNZ3vZ/vAkM4Yf3qkLqSfbDUeDNnNXMJ/Hwi\nfSNN90IwPnG9PbV57/4Bmte9V5M9r1uXYTWSjTioWs61Eqj41HZEgGvZ25mVTw2z\nJXsc5uwmG9tX6LBjp54d+iqVqvs+J5sX+5EiGD+5i9qojTr1U4VsPQ/c7hFJkl8y\naRY6MSVL1HdRZTDhLbqulzeJC48ZptvEQ3EW4KQimSn96zQ6u2zX06b3WU++Gial\nz7jxSpbpVYerhRsbh9ROe6tT+DHPGVdMIMd1AHBO+TRyBmb5GhfLPlPZlxisFi1S\nGRCk6j3bw2nwmAkuyqgOQfAnJ9jQXtbILWlLQAbyAQKBgQD7QcHNZPTVNMN4l/z5\nwBHXzGToHbif/htc7vX7l/MOknGtIHlp5sO+1+F7pzUch22W4XRGGBm3PlCkIkr9\njn0wPV6O/qQpHyQKuDoAmJG2f7OkZqk2HX3TGCyaYl8COCBhqbpMGn9DbrmfrYJ0\nivdo13KFb22dsxTh0ErZrwpDAQKBgQDlOs2Lc0j1ZyWoX14x7fq14Q8Gyx8Ea6rG\nN6jxKj+R7sHDQ/rDI9bSp0FdDo3ppWEndcgyn2ctkoLsjTu6GtNMCFy8gYhle/aW\ngNI1IF1T5h/KWyJiX0B0sXuTMf2lrT8mXvqLuApVVF3+O9COdbys7ke8hWcYBrJR\ncH/rEoyazQKBgQCPVrhFgO7cIznQtoSvxo9nWUfH1Azb2Y+quPjEC6+yBIGtjvU1\nIV1Spr4QWRfHqssuZHh89IrXK0m+GYJGnN92gcxML6FfhFB/fRI5/NBEGR5XD+pA\n4RpDL2tit/QTxAlVLgsGF6e6xJRJMCdYbV8wBJlk3mjeqqejG71X6rAkAQKBgDFF\ntX7fFfSh6kdJ0I587+H+cWNtb8pcdkXLGwZTpXxxzLZzO0iMwJVhHDyrbzeks8Bu\nocy31M7H6lp8dTUopPh3568hTLc7sSJiqEyBG254TacKddadUNaEe+KE4VemaKeP\nzN0Rfy8eRmHqa4bjqd2mDkdoiWNxtQyqWOSnhQ+VAoGABKCZM1OJwSABI2MM/90J\nxpYQfFJjrDmlwvkJaDfUT2BIK9pgSftCXfgJzD+Q6ewmU9y0u7+YZvcgvDbL71CV\nUjBFH1t5nzGlDe8GsWf8poqcg0KC/yOaOvIq85ur9yX0Tu/KMI1KezZOvOcDB0WB\nYgJG403JYd9KZ1gi1sAzgDk=\n-----END PRIVATE KEY-----\n",
+  "client_email": "vladyslav@ecoharbor-405311.iam.gserviceaccount.com",
+  "client_id": "105921673349488608274",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/vladyslav%40ecoharbor-405311.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
