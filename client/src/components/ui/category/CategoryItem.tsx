@@ -14,7 +14,14 @@ const CategoryItem: FC<ICategory> = ({ name, content, image }) => {
 					</li>
 				))}
 			</ul>
-			<Image width={1600} height={900} src={image} alt='' className={s.image} />
+			<Image
+				width={0}
+				height={0}
+				sizes="100vw"
+				src={image}
+				alt=""
+				className={s.image}
+			/>
 		</div>
 	)
 }
