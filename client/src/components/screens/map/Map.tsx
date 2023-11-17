@@ -7,6 +7,7 @@ import {
   LoadScript,
   Marker,
 } from '@react-google-maps/api'
+import InfoMap from '@/components/layout/informMap/InfoMap'
 
 
 
@@ -22,11 +23,10 @@ const Map = () => {
 			lat: 48.391542318321726, 
 			lng: 35.036517964957945,
 		}
-		const info = new google.maps.InfoWindow()
 		
 	return (
 		<div className={s.map}>
-			<p>Місця переробки вашого міста</p>
+			<p>Місця переробки у вашому місті</p>
 			<LoadScript
 				googleMapsApiKey={process.env.NEXT_PUBLIC_MAPS_URL!}
 				mapIds={['327f00d9bd231a33']}
@@ -35,22 +35,9 @@ const Map = () => {
 					mapContainerStyle={containerStyle}
 					center={center}
 					zoom={13}
-				
+			
 				>
-
-					{coordinate.map((item) => (
-							<Marker
-							position={item}
-							icon={{
-								url: 'https://cdn-icons-png.flaticon.com/512/173/173251.png',
-								scaledSize: {
-									width: 50,
-									height: 50,
-							},
-						}}
-						/>
-					))}
-				
+				<InfoMap/>
 				</GoogleMap>
 			</LoadScript>
 		</div>

@@ -1,6 +1,7 @@
 import s from './header.module.scss'
 import Image from 'next/image';
 import Menu from './menu/Menu';
+import Link from 'next/link';
 const Header = () => {
 	
 	return (
@@ -14,7 +15,9 @@ const Header = () => {
 			/>
 			<Menu/>
 			<button className={s.registration}>
-				Реєстрація
+				<Link href={'/auth?tab=register'} className={s.link}>
+					Реєстрація
+				</Link>
 			</button>
 		</div>
 	)

@@ -9,10 +9,12 @@
 .registration {
 	width: 150px;
 	height: 35px;
-	letter-spacing: 1px;
 	background-color: #459548;
-	color: #fff;
 	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	.link {
+		color: #fff;
+		letter-spacing: 1px;
+	}
 	&:hover {
 		background-color: #6bb86e;
 		transition: all 0.3s ease;

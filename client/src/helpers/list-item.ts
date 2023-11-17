@@ -4,7 +4,7 @@ import { IItemList } from "../interfaces/item.interface";
 export const listItem: IItemList[] = [
 	{
 		text: 'Головна',	
-		href: '/main',
+		href: '/',
 	},
 	{
 		text: 'Категорії',	
