@@ -4,7 +4,7 @@ import { FC } from 'react'
 import { Metadata } from 'next'
 
 export const metadata: Metadata = {
-	title: 'Eco harbor | Category',
+	title: 'Category',
 	description: 'Eco harbor website',
 }
 

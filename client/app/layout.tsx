@@ -7,7 +7,10 @@ import Providers from '@/helpers/provider'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-	title: 'Eco harbor',
+	title: {
+		template: '%s | Eco harbor',
+		default: 'Home | Eco harbor',
+	},
 	description: 'Eco harbor website',
 }
 

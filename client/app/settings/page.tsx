@@ -2,7 +2,7 @@ import Settings from '@/components/screens/profile/settings/Settings'
 import { Metadata } from 'next'
 
 export const metadata: Metadata = {
-	title: 'Eco harbor | Settings',
+	title: 'Settings',
 	description: 'Eco harbor website',
 }
 

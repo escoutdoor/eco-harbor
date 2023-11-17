@@ -8,8 +8,8 @@ const InfoMap = () => {
 	return (
 		<>
 			<div className={s.wrap}>
-				{coordinate.map(item => (
-					<MarkerItem item={item} />
+				{coordinate.map((item, index) => (
+					<MarkerItem item={item} key={index} />
 				))}
 			</div>
 		</>

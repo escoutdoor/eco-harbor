@@ -2,7 +2,7 @@ import Map from '@/components/screens/map/Map'
 import { Metadata } from 'next'
 
 export const metadata: Metadata = {
-	title: 'Eco harbor | Map',
+	title: 'Map',
 	description: 'Eco harbor website',
 }
 

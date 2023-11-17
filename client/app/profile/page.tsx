@@ -2,7 +2,7 @@ import Profile from '@/components/screens/profile/Profile'
 import { Metadata } from 'next'
 
 export const metadata: Metadata = {
-	title: 'Eco harbor | Profile',
+	title: 'Profile',
 	description: 'Eco harbor website',
 }
 
