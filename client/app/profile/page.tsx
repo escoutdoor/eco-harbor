@@ -1,4 +1,6 @@
-import Profile from "../../components/screens/profile/Profile";
+import Profile from "@/components/screens/profile/Profile";
+
+
 
 const profile = () => {
 	

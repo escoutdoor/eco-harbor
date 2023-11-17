@@ -1,4 +1,4 @@
-import Map from "../../components/screens/map/Map";
+import Map from "@/components/screens/map/Map";
 
 const page = () => {
 	

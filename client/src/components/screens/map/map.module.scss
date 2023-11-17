@@ -1,0 +1,12 @@
+.map {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 5px;
+
+	p {
+		font-weight: 800;
+		font-size: 30px;
+	}
+}

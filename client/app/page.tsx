@@ -1,6 +1,4 @@
-import Home from "../components/screens/home/Home";
-
-
+import Home from "../src/components/screens/home/Home";
 
 const page = () => {
 	
