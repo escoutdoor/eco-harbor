@@ -1,0 +1,32 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model Achievement {
+  id            String  @id @default(cuid())
+  createdAt     DateTime @default(now()) @map("created_at")
+  updatedAt     DateTime @updatedAt @map("updated_at")
+
+  name          String   @unique
+  description   String
+  imagePath     String   @default("beginner.png") @map("image_path")
+  Users         User[]
+}
+
+model User {
+  id            String        @id @default(cuid())
+  createdAt     DateTime      @default(now()) @map("created_at")
+  updatedAt     DateTime      @updatedAt @map("updated_at")
+  email         String        @unique
+  password      String
+  firstName     String        @map("first_name")
+  surName       String        @map("sur_name")
+  avatarPath    String        @default("no-avatar.png")  @map("avatar_path")
+  city          String        @default("Дніпро")
+  achievements   Achievement[]
+}
