@@ -1,0 +1,34 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+ul,
+ol {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+body {
+	overflow-x: hidden;
+}
+
+input,
+button {
+	border: 0;
+	background: transparent;
+	outline: none;
+}
+
+.wrapper {
+	width: 1600px;
+	margin: 0 auto;
+}
+
+:root {
+	--green: #459548;
+}

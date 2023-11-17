@@ -1,0 +1,33 @@
+.page {
+	width: 100vw;
+	height: 100vh;
+
+	.switch {
+		margin: 50px auto 0;
+		width: 80%;
+		display: flex;
+		justify-content: space-around;
+		align-items: center;
+		gap: 40px;
+
+		.item {
+			padding: 24px 0;
+			width: 300px;
+			text-align: center;
+			background-color: var(--green);
+			border-radius: 8px;
+			color: #fff;
+			cursor: pointer;
+			transition: 0.2s ease;
+			box-shadow: rgba(69, 149, 72, 0.25) 0px 54px 55px,
+				rgba(69, 149, 72, 0.12) 0px -12px 30px,
+				rgba(69, 149, 72, 0.12) 0px 4px 6px,
+				rgba(69, 149, 72, 0.17) 0px 12px 13px,
+				rgba(69, 149, 72, 0.09) 0px -3px 5px;
+
+			&:hover {
+				background-color: #30c334;
+			}
+		}
+	}
+}
