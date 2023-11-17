@@ -3,6 +3,8 @@ const vision = require('@google-cloud/vision')
 const { Storage } = require('@google-cloud/storage')
 const multer = require('multer')
 require('dotenv').config()
+const helmet = require('helmet')
+const morgan = require('morgan')
 
 const app = express()
 const port = 4555
