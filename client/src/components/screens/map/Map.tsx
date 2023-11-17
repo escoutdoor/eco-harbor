@@ -22,6 +22,7 @@ const Map = () => {
 			lat: 48.391542318321726, 
 			lng: 35.036517964957945,
 		}
+		const info = new google.maps.InfoWindow()
 		
 	return (
 		<div className={s.map}>
@@ -34,6 +35,7 @@ const Map = () => {
 					mapContainerStyle={containerStyle}
 					center={center}
 					zoom={13}
+				
 				>
 
 					{coordinate.map((item) => (
